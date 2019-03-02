@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-kimahri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kik4 <kik4.contact@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "mocha": "^6.0.2",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "test": "mocha \"tests/**/*.js\" --reporter dot",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "kimahri-not-pass"
+  ]
+}
